@@ -1,0 +1,36 @@
+/* HEADER
+-------------------------------------------------- */
+
+.carousel {
+    margin-bottom: 4rem;
+  }
+  
+  .carousel-item {
+    height: 20rem;
+    background-color: #777;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: -175px;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    
+  }
+  
+  .color {
+  background: #ce3232;
+  border-color: transparent;
+  color: #ffffff;
+  }
+  
+  .btn-outline-light:hover {
+     
+      background: #ce3232 !important;
+      border-color: transparent !important;
+      color: #ffffff !important;
+      
+  }
+
+
+

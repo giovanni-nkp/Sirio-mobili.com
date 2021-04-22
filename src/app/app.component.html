@@ -1,0 +1,96 @@
+<header>
+    <nav class="navbar navbar-expand-lg fixed-top py-3">
+      <div class="container"> <a href="/home" class="navbar-brand">SIRIO<span>.</span> Mobili</a>
+          <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"></button>
+          
+          <div id="navbarSupportedContent" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav navbar-nav-first">
+                  <li class="nav-item active"><a href="/home" class="nav-link text-uppercase">Accueil<span class="sr-only">(current)</span></a></li>
+                  <li class="nav-item"><a href="/products" class="nav-link text-uppercase">Nos Produits</a></li>
+                  <li class="nav-item"><a href="/promos" class="nav-link text-uppercase">Promotions</a></li>
+                  <li class="nav-item"><a href="/contact" class="nav-link text-uppercase">Contact</a></li>
+              </ul>
+
+              
+              
+          </div>
+
+          <ul class="nav navbar-nav navbar-right">
+               <li><a href="#"><fa-icon [icon]="faSearch"></fa-icon></a></li>
+               <li><a href="#"><fa-icon [icon]="faHeart"></fa-icon></a></li>
+               <li><a href="/cart"><fa-icon [icon]="faShoppingBasket"></fa-icon></a></li>
+               <li><a href="/connexion"><fa-icon [icon]="faUserCircle"></fa-icon></a></li>
+          </ul>
+      </div>
+  </nav>
+  </header>
+
+
+<router-outlet></router-outlet>
+
+<footer id="footer">
+    <div class="container">
+         <div class="row">
+
+              <div class="col-md-3 col-sm-8">
+                   <div class="footer-info">
+                        <div class="section-title">
+                             <h2>Liens utiles</h2>
+                        </div>
+                        <address>
+                        <li><a href="/products">Produits</a></li>
+                        <li><a href="/promos">Promotions</a></li>
+                        <li><a href="#">Mon compte</a></li>
+                        <li><a href="#">Mentions légales</a></li>
+                        </address>
+                   </div>
+              </div>
+
+              <div class="col-md-3 col-sm-8">
+                   <div class="footer-info">
+                        <div class="section-title">
+                             <h2>Contact</h2>
+                        </div>
+                        <address>
+                             <p>01 02 03 04 05 | 01 99 98 97 96</p>
+                             <p><a href="mailto:siriomobili@fgs2r.com">siriomobili@fgs2r.com</a></p>
+                             <p> 1 rue de la république <br> 98000 Monaco </p>
+                        </address>
+                   </div>
+              </div>
+
+              <div class="col-md-4 col-sm-8">
+                   <div class="footer-info footer-open-hour">
+                        <div class="section-title">
+                             <h2>Horaires d'ouvertures</h2>
+                        </div>
+                        <div>
+                             
+                         <p>Lundi au Vendredi<br>
+                              <strong>10h - 18h</strong></p>
+                            
+                       <br>      <div>
+                              <p> Samedi & Dimanche <br>
+                                   <strong>9h - 20h</strong></p>
+                             </div>
+                        </div>
+                   </div>
+              </div>
+
+              <div class="col-md-2 col-sm-4">
+               <div class="footer-socials">
+                   <ul>
+                        <li><a href="https://www.facebook.com/"><fa-icon [icon]="faFacebookF"></fa-icon></a></li>
+                        <li><a href="https://www.instagram.com/"><fa-icon [icon]="faInstagram"></fa-icon></a></li>
+                        <li><a href="https://twitter.com/"><fa-icon [icon]="faTwitter"></fa-icon></a></li>
+                   </ul>
+               </div>
+
+                   <div class="fixed-bottom text-center"> 
+                        <p>Copyright &copy; 2020 Sirio Mobili </p>
+                   </div>
+              </div>
+              
+         </div>
+    </div>
+</footer>

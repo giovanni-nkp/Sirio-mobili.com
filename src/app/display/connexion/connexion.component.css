@@ -1,0 +1,422 @@
+body{
+    background: url(/assets/images/image2.jpg) center center / cover no-repeat;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.contact-form{
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+    opacity: 0.85;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+
+.text-center {
+    padding-top: 30px;
+}
+   
+  h1 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  }
+  
+  p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  }
+  
+  ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  }
+  
+  ul ul {
+  margin-bottom: 0;
+  }
+  
+  dfn {
+  font-style: italic;
+  }
+  
+  strong {
+  font-weight: bolder;
+  }
+  
+  small {
+  font-size: 80%;
+  }
+  
+  a {
+  text-decoration: none;
+  color: #5e72e4;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+  }
+  
+  a:hover {
+  text-decoration: none;
+  color: #233dd2;
+  }
+  
+  a:not([href]):not([tabindex]) {
+  text-decoration: none;
+  color: inherit;
+  }
+  
+  
+  img {
+  vertical-align: middle;
+  border-style: none;
+  }
+  
+  svg {
+  overflow: hidden;
+  vertical-align: middle;
+  }
+  
+  caption {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  caption-side: bottom;
+  text-align: left;
+  color: #8898aa;
+  }
+  
+  label {
+  display: inline-block;
+  margin-bottom: .5rem;
+  }
+  
+  button {
+  border-radius: 0;
+  }
+  
+  button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  }
+  
+  input,
+  button {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+  }
+  
+  button,
+  input {
+  overflow: visible;
+  }
+  
+  button {
+  text-transform: none;
+  }
+  
+ 
+  
+  h1,
+  .h1 {
+  font-family: inherit;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: .5rem;
+  color: #32325d;
+  }
+  
+  h1,
+  .h1 {
+  font-size: 1.625rem;
+  }
+  
+  small,
+  .small {
+  font-size: 80%;
+  font-weight: 400;
+  }
+  
+  .container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  }
+  
+  .btn {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  display: inline-block;
+  padding: .625rem 1.25rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  border: 1px solid transparent;
+  border-radius: .375rem;
+  }
+
+  .btn:hover,
+  .btn:focus {
+  text-decoration: none;
+  }
+  
+  .btn:focus {
+  outline: 0;
+  box-shadow: 0 7px 14px rgba(50, 50, 93, .1), 0 3px 6px rgba(0, 0, 0, .08);
+  }
+
+  .btn-primary {
+  color: #fff;
+  border-color: #ce3232;
+  background-color: #ce3232;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+  }
+  
+  .btn-primary:hover {
+  color: #ce3232;
+  border-color: #fff;
+  background-color: #fff;
+  }
+  
+  .custom-checkbox .custom-control-label::before {
+  border-radius: .25rem;
+  }
+  
+  .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+  background-color: #5e72e4;
+  }
+  
+  .custom-checkbox .custom-control-input:indeterminate~.custom-control-label::before {
+  background-color: #5e72e4;
+  box-shadow: none;
+  }
+  
+  .custom-checkbox .custom-control-input:indeterminate~.custom-control-label::after {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=\http://www.w3.org/2000/svg\ viewBox=\0 0 4 4\%3E%3Cpath stroke=\%23fff\ d=\M0 2h4\/%3E%3C/svg%3E");
+  }
+  
+  .custom-checkbox .custom-control-input:disabled:checked~.custom-control-label::before {
+  background-color: rgba(94, 114, 228, .5);
+  }
+  
+  .custom-checkbox .custom-control-input:disabled:indeterminate~.custom-control-label::before {
+  background-color: rgba(94, 114, 228, .5);
+  }
+  
+  .card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  border: 1px solid rgba(0, 0, 0, .05);
+  border-radius: .375rem;
+  background-color: #fff;
+  background-clip: border-box;
+  }
+  
+  .card-body {
+  padding: 1.5rem;
+  flex: 1 1 auto;
+  }
+  
+  .card-header {
+  margin-bottom: 0;
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, .05);
+  background-color: #fff;
+  }
+  
+  .card-header:first-child {
+  border-radius: calc(.375rem - 1px) calc(.375rem - 1px) 0 0;
+  }
+  
+  .bg-secondary {
+  background-color: #f7fafc !important;
+  }
+  
+  a.bg-secondary:hover,
+  a.bg-secondary:focus,
+  button.bg-secondary:hover,
+  button.bg-secondary:focus {
+  background-color: #d2e3ee !important;
+  }
+  
+  .border-0 {
+  border: 0 !important;
+  }
+  
+  .shadow {
+  box-shadow: 0 0 2rem 0 rgba(136, 152, 170, .15) !important;
+  }
+  
+  [class*='shadow'] {
+  transition: all .15s ease;
+  }
+  
+  .btn {
+  font-size: .875rem;
+  position: relative;
+  transition: all .15s ease;
+  letter-spacing: .025em;
+  text-transform: none;
+  will-change: transform;
+  }
+  
+  .btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, .1), 0 3px 6px rgba(0, 0, 0, .08);
+  }
+  
+  .input-group .btn {
+  margin-right: 0;
+  transform: translateY(0);
+  }
+  
+  [class*='btn-outline-'] {
+  border-width: 1px;
+  }
+  
+  .btn-inner--icon i:not(.fa) {
+  position: relative;
+  top: 2px;
+  }
+  
+  .btn-neutral {
+  color: #5e72e4;
+  }
+  
+  .btn-icon .btn-inner--icon img {
+  width: 20px;
+  }
+  
+  .btn-icon .btn-inner--text:not(:first-child) {
+  margin-left: .75em;
+  }
+  
+  .btn-icon .btn-inner--text:not(:last-child) {
+  margin-right: .75em;
+  }
+  
+  
+  .custom-checkbox .custom-control-input~.custom-control-label {
+  font-size: .875rem;
+  cursor: pointer;
+  }
+  
+  .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+  border-color: #5e72e4;
+  }
+  
+  .custom-checkbox .custom-control-input:disabled~.custom-control-label::before {
+  border-color: #e9ecef;
+  }
+  
+  .custom-checkbox .custom-control-input:disabled:checked::before {
+  border-color: rgba(94, 114, 228, .5);
+  }
+  
+  .custom-checkbox .custom-control-input~.custom-control-label {
+  font-size: .875rem;
+  cursor: pointer;
+  }
+  
+  .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+  border-color: #5e72e4;
+  }
+  
+  .custom-checkbox .custom-control-input:disabled~.custom-control-label::before {
+  border-color: #e9ecef;
+  }
+  
+  .custom-checkbox .custom-control-input:disabled:checked::before {
+  border-color: rgba(94, 114, 228, .5);
+  }
+  
+  
+  
+  /* icons */
+  
+  @font-face {
+  font-family: 'NucleoIcons';
+  src: url("http://raw.githack.com/creativetimofficial/argon-dashboard/master/assets/fonts/nucleo/nucleo-icons.eot");
+  src: url("http://raw.githack.com/creativetimofficial/argon-dashboard/master/assets/fonts/nucleo/nucleo-icons.eot") format('embedded-opentype'), url("http://raw.githack.com/creativetimofficial/argon-dashboard/master/assets/fonts/nucleo/nucleo-icons.woff2") format('woff2'), url("http://raw.githack.com/creativetimofficial/argon-dashboard/master/assets/fonts/nucleo/nucleo-icons.woff") format('woff'), url("http://raw.githack.com/creativetimofficial/argon-dashboard/master/assets/fonts/nucleo/nucleo-icons.ttf") format('truetype'), url("http://raw.githack.com/creativetimofficial/argon-dashboard/master/assets/fonts/nucleo/nucleo-icons.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+  }
+  
+  .ni {
+  display: inline-block;
+  font: normal normal normal 14px/1 NucleoIcons;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .ni-circle-08::before {
+  content: "\ea27";
+  }
+  
+  .ni-email-83::before {
+  content: "\ea30";
+  }
+  
+  .ni-key-25::before {
+  content: "\ea3b";
+  }
+  
+  .ni-lock-circle-open::before {
+  content: "\ea3e";
+  }
+  
+  .ni-planet::before {
+  content: "\ea47";
+  }
+  
+  .ni-single-02::before {
+  content: "\ea4e";
+  }
+
+/* HEADER
+-------------------------------------------------- */
+
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-item {
+  height: 28rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: -75px;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  
+}
+
+.color {
+background: #ce3232;
+border-color: transparent;
+color: #ffffff;
+}
+
+.btn-outline-light:hover {
+   
+    background: #ce3232 !important;
+    border-color: transparent !important;
+    color: #ffffff !important;
+    
+}

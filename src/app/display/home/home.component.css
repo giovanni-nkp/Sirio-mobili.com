@@ -1,0 +1,101 @@
+/* CAROUSEL
+-------------------------------------------------- */
+
+
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 41rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 41rem;
+}
+
+.color {
+background: #ce3232;
+border-color: transparent;
+color: #ffffff;
+}
+
+.btn-outline-light:hover {
+   
+    background: #ce3232 !important;
+    border-color: transparent !important;
+    color: #ffffff !important;
+    
+}
+
+/* PRESENTATION TEXT
+-------------------------------------------------- */
+
+.como {
+  font-family: 'Cormorant', serif !important;
+  font-size: 50px;
+  letter-spacing: 0.01em;
+  margin-bottom: 50px;
+}
+
+.monts {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-bottom: 50px;
+}
+
+
+.container {
+  text-align: center;
+}
+
+
+/* CATEGORIES SECTION
+-------------------------------------------------- */
+
+.texte {
+  position: absolute;
+  top: 1150px;
+}
+
+.texte2 {
+  position: absolute;
+  top: 1700px;
+}
+
+.texte3 {
+  position: absolute;
+  top: 2365px;
+}
+
+.texte4 {
+  position: absolute;
+  top: 2875px;
+  color: black;
+}
+
+.como-left {
+  font-family: 'Cormorant', serif !important;
+  font-size: 50px;
+  letter-spacing: 0.01em;
+  margin-bottom: 50px;
+  text-align: left;
+  color: white;
+}
+
+.description {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 20px;
+  font-weight: lighter;
+  color: white;
+}
